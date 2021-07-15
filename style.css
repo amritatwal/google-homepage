@@ -1,6 +1,13 @@
-.logo {
+.google-logo {
     position: fixed;
     top: 25%;
+    left: 65%;
+    margin-left: -25%;
+}
+
+.search-bar {
+    position: fixed;
+    top: 40%;
     left: 65%;
     margin-left: -25%;
 }
