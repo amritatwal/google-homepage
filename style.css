@@ -4,3 +4,8 @@
     left: 65%;
     margin-left: -25%;
 }
+
+footer {
+    position: fixed;
+    bottom: 5%;
+}
