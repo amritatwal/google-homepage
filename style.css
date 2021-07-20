@@ -1,5 +1,6 @@
 .logo {
   position: absolute;
+  align-self: center;
   top: 24%;
   left: 60%;
   margin-left: -25%;
@@ -8,9 +9,11 @@
 
 #search-bar-wrapper{
   display: flex;
-  width: 400px;
+  position: relative;
+  min-width: 100px;
+  max-width: 500px;
   border: 0.5px solid;
-  margin-left: 30%;
+  margin-left: 25%;
   margin-top: 20%;
 }
 
