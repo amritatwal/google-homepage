@@ -12,17 +12,25 @@
   position: relative;
   min-width: 100px;
   max-width: 500px;
-  border: 0.5px solid;
-  margin-left: 25%;
+  border: solid 1px #dfe1e5;
+  border-radius: 24px;
+  padding: 5px;
+  margin-left: 26%;
   margin-top: 20%;
+  align-items: space-between;
 }
 
 #search-bar {
-    order: 1;
-    flex-grow: 1;
+    width: 500px;
+    border: none;
 }
 
+.footer-wrapper {
+    position: fixed;
+    margin-bottom: 0%;
+    background-color: bisque;
+}
 footer {
-  position: fixed;
-  bottom: 5%;
+  position: relative;
+
 }
