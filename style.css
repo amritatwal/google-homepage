@@ -1,18 +1,25 @@
-.google-logo {
-    position: fixed;
-    top: 25%;
-    left: 65%;
-    margin-left: -25%;
+.logo {
+  position: absolute;
+  top: 24%;
+  left: 60%;
+  margin-left: -25%;
+  width: 500px;
 }
 
-.search-bar {
-    position: fixed;
-    top: 40%;
-    left: 65%;
-    margin-left: -25%;
+#search-bar-wrapper{
+  display: flex;
+  width: 400px;
+  border: 0.5px solid;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+
+#search-bar {
+    order: 1;
+    flex-grow: 1;
 }
 
 footer {
-    position: fixed;
-    bottom: 5%;
+  position: fixed;
+  bottom: 5%;
 }
