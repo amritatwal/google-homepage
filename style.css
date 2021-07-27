@@ -1,10 +1,18 @@
-page {
+body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: arial, san-serif;
+  font-size: 14px;
+  color: #222;
 }
 
-navbar {
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+nav {
   display: flex;
   height: 200px;
 }
@@ -59,12 +67,36 @@ navbar {
     align-self: center;
 }
 
-.center-page{
-  flex-grow: 1;
+.center-page {
+  display: flex;
+  height: 30%;
+}
+
+footer {
+  display: flex;
+  color: rgba(0,0,0,.54);
 }
 
 .footer-wrapper {
   display: flex;
-  width: auto;
-  background-color: black;
+  padding: 10;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #f2f2f2;
+}
+
+#location {
+  margin-top: 5px;
+  display: inline-block;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-end;
+}
+
+#advertising, #business, #how-search-works  {
+  padding: 10px;
+  color: rgba(0,0,0,.54);
 }
