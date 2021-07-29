@@ -7,6 +7,12 @@ body {
   color: #222;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
   color: #222;
@@ -14,7 +20,7 @@ a {
 
 nav {
   display: flex;
-  height: 200px;
+  height: 100px;
 }
 
 #about, #store  {
@@ -36,12 +42,13 @@ nav {
 #gmail, #images  {
   padding: 10px;
 }
+
 .logo {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: auto;
-  max-height: auto;
 }
 
 .google-logo {
@@ -50,47 +57,41 @@ nav {
 }
 
 #search-bar-wrapper{
-  display: flex;
-  max-height: 100px;
-  min-width: 100px;
-  max-width: 500px;
+  margin-top: 30px;
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: 30%;
   border: solid 1px #dfe1e5;
   border-radius: 24px;
-  margin-top: 70px;
-  padding-top: 5px;
-  align-items: space-between;
+  padding: 5px 5px 5px 5px;
 }
 
 #search-bar {
-    width: 500px;
-    border: none;
-    align-self: center;
-}
-
-.center-page {
-  display: flex;
-  height: 80%;
+  width: 500px;
+  border: none;
 }
 
 footer {
   display: flex;
-  height: 35%;
+  width: auto;
+  margin-top: 25%;
   color: rgba(0,0,0,.54);
 }
 
 .footer-wrapper {
   display: flex;
-  width: 100%;
-  padding: 10px;
+  width: auto;
+
+  padding: 20px;
   flex-direction: column;
   flex-grow: 1;
   background-color: #f2f2f2;
 }
 
 #location {
-  display: inline-block;
-  margin: 0;
-  padding: 0px;
+  display: inline-flex;
+  margin-top: 0px;
 }
 
 .footer-links {
@@ -99,7 +100,7 @@ footer {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-links-left {
@@ -112,7 +113,7 @@ footer {
 
 #advertising, #business, #how-search-works, 
 #privacy, #terms, #settings  {
-  margin-top: 10px;
-  padding: 15px;
+  margin: 0;
+  padding: 10px;
   color: rgba(0,0,0,.54);
 }
