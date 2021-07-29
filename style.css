@@ -80,7 +80,7 @@ footer {
 
 .footer-wrapper {
   display: flex;
-  width: auto;
+  width: 100%;
   padding: 10px;
   flex-direction: column;
   flex-grow: 1;
@@ -90,17 +90,28 @@ footer {
 #location {
   display: inline-block;
   margin: 0;
+  padding: 0px;
+}
+
+.footer-links {
   padding: 10px;
+  border-top: 1px solid #dadce0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
 }
 
 .footer-links-left {
-  display: inline-flex;
-  width: 100%;
-  border-top: 1px solid #dadce0;
-  align-items: flex-end;
+  order: 1;
 }
 
-#advertising, #business, #how-search-works  {
+.footer-links-right {
+  order: 2;
+}
+
+#advertising, #business, #how-search-works, 
+#privacy, #terms, #settings  {
   margin-top: 10px;
   padding: 15px;
   color: rgba(0,0,0,.54);
