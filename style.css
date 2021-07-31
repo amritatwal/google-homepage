@@ -69,6 +69,8 @@ nav {
 
 #search-bar {
   width: 500px;
+  padding: 5px;
+  height: 30px;
   border: none;
 }
 
@@ -82,7 +84,6 @@ footer {
 .footer-wrapper {
   display: flex;
   width: auto;
-
   padding: 20px;
   flex-direction: column;
   flex-grow: 1;
@@ -104,10 +105,14 @@ footer {
 }
 
 .footer-links-left {
-  order: 1;
+  order: ;
 }
 
 .footer-links-right {
+  order: 3;
+}
+
+.footer-links-mid {
   order: 2;
 }
 
