@@ -74,6 +74,17 @@ nav {
   border: none;
 }
 
+.search-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+button {
+  border: none;
+}
+
 footer {
   display: flex;
   width: auto;
