@@ -1,5 +1,6 @@
 body {
   display: flex;
+  margin: auto;
   flex-direction: column;
   height: 100%;
   font-family: arial, san-serif;
@@ -92,7 +93,8 @@ nav {
 footer {
   display: flex;
   width: auto;
-  margin-top: 15%;
+  margin-top: 23%;
+  height: 100%;
   color: rgba(0,0,0,.54);
 }
 
